@@ -1,5 +1,6 @@
 # Deep Learning: Assignmnet 5
-Goal:
+Evaluating the numerical prediction models.
+Task 1:
   1. Load your dataset from the “CO2 Emissions.csv” csv file.
   2. Explore your dataset and list the name of the text columns.
   3. Explore your dataset and check if there is any column with missing values.
@@ -14,4 +15,20 @@ Goal:
   8. Compare their accuracies by means of the test data set using Mean Absolute Error, Mean 
   Squared Error, R2 score and Root Mean Squared Error metrics. Which neural network is better 
   than the others. 
-  9. Plot the Actual vs Predicted graph of the best model
+  9. Plot the Actual vs Predicted graph of the best model.
+
+Task 2:
+  1. Load your dataset from the “internet_connection_data.csv” csv file.
+  2. Explore your dataset and list the name of the columns.
+  3. Explore your dataset and check if there is any column with missing values.
+  4. Select your input variables and ourput variable (hint: output colum is the one you want to 
+  predict. In this case it is the last column which shows the type of network attack).
+  5. Split your dataset as %80 training and %20 testing.
+  6. Scale your training data and testing data inputs.
+  After them do the following steps:
+  7. Implement three different neural networks one with 1 layer, one with 2 layers and one with 3 
+  layers using either the ski-learn or Keras python libraries and train them using the training 
+  dataset. 
+  8. Compare their accuracies by means of the test data set using accuracy, precision, recall and F1-
+  score metrics. Which neural network is better than the others. 
+  9. Plot the confussion matrix of the best model.
